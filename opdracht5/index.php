@@ -3,7 +3,7 @@ session_start();
 if(isset($_GET['type'])){
     if($_GET['type'] == "add"){
         $value = $_GET['item'];
-        $sessVal = str_replace(" ", "*", $_GET['item']);
+        $sessVal = $_GET['item'];
         $_SESSION[$sessVal] = $value;
     }else if($_GET['type'] == "delete"){
         unset($_SESSION[$_GET['item']]);
@@ -25,7 +25,7 @@ if(isset($_GET['type'])){
     <ul>
         <?php
             foreach($_SESSION as $key => $boodschap){
-                echo "<a href='index.php?item=".$key."&type=delete'><li>".$boodschap."</li></a>";
+                echo "<a href='?item=".$key."&type=delete'><li>".$boodschap."</li></a>";
             }
         ?>
     </ul>
