@@ -5,7 +5,7 @@ $boodschappen = array("aardappelen", "aardbeien", "3 pakken melk", "yoghurt");
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Opdracht1</title>
+    <title>Opdracht3</title>
 </head>
     <body>
         <ul>
