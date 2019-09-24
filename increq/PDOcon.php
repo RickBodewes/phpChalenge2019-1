@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "php";
 $password = "b2uK3ntm7cusHF4pfdKaBQfE8yMsZb";
-$dbname = "php2019";
+$dbname = "rocchallboodschappen";
 $poort = "3306";
 try {
     $con = new PDO("mysql:host=" . $servername . ";dbname=" . $dbname .";port=" . $poort, $username, $password);
