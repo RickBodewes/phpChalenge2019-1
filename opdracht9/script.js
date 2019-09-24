@@ -9,6 +9,7 @@ $(document).ready(function () {
     }
     date += d.getDate();
     $('#dateInput').val(date);
+    $('#dateSelect').val(date);
 
     $('#dateSelect').on('input', function () {
         $.ajax({

@@ -19,15 +19,12 @@ if(isset($_GET['type'])){
         header("location: index.php");
     }
 }
-echo "Today is " . date("Y-m-d") . "<br>";
-
-
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Opdracht8</title>
+    <title>Opdracht9</title>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
     <script src="script.js"></script>
 </head>
